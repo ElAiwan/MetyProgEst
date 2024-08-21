@@ -66,13 +66,39 @@ namespace HolaMundo
             Console.WriteLine("\nIngrese un número:");  // Solicita al usuario que ingrese un número
             int numero = int.Parse(Console.ReadLine()); // Convierte la entrada de texto del usuario en un número
 
-            if (numero % 2 == 0)    // Condición para determinar si el número es par. El número es par si el resto de su división por 2 es 0
-            {
+            if (numero % 2 == 0) {    // Condición para determinar si el número es par. El número es par si el resto de su división por 2 es 0
                 Console.WriteLine("El número " + numero + " es par.");  // Imprime la respuesta si la condición se cumple
             }
             else {  // Condición es falsa
                 Console.WriteLine("El número " + numero + " es impar.");    // Imprime la respuesta si la condición no se cumple
             }
+
+            // Ejercicio 7: Mayor de tres números
+            Console.WriteLine("\nIngrese el primer número:");   // Solicita al usuario ingresar el primer número
+            int num1 = int.Parse(Console.ReadLine());       // Convierte la entrada de texto del usuario en un número
+
+            Console.WriteLine("Ingrese el segundo número");     // Solicita al usuario ingresar el segundo número
+            int num2 = int.Parse(Console.ReadLine());       // Convierte la entrada de texto del usuario en un número
+
+            Console.WriteLine("Ingrese el tercer número");      // Solicita al usuario ingresar el tercer número
+            int num3 = int.Parse(Console.ReadLine());       // Convierte la entrada de texto del usuario en un número
+
+            int numeroMayor;
+
+            if (num1 > num2 && num1 > num3)     // Comparación numero 1 con 2 y 3
+            {
+                numeroMayor = num1;     // Si la condición es cierta, el número 1 es el mayor de los tres
+            }
+            else if (num2 > num1 && num2 > num3)    // Si número 1 no se mayor, se compara el número 2 con el 1 y el 3
+            {
+                numeroMayor = num2;     // Si la condición es cierta, el número 2 es el mayor
+            }
+            else    // Si ni el número 1 ni el número 2 son ciertos
+            {
+                numeroMayor = num3;     // Entonces el número 3 es el mayor
+            }
+
+            Console.WriteLine("El número mayor es: " + numeroMayor);    // Imprimir el resultado
         }
     }
 }
