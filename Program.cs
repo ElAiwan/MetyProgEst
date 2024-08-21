@@ -34,14 +34,35 @@ namespace HolaMundo
             Console.WriteLine("La suma de " + a + " y " + b + " es: " +c); // Imprime el resultado de la suma al usuario
 
             // Ejercicio 4: Calcular el área de un círculo
-            Console.WriteLine("Ingresa el radio del círculo:"); //Solicita al usuairo que ingrese un número
+            Console.WriteLine("Ingresa el radio del círculo:"); // Solicita al usuario que ingrese un número
             
-            double radio = double.Parse(Console.ReadLine());    //Convierte la entrada de texto del usuario en un número decimal
-            double area = Math.PI * Math.Pow(radio, 2); //Calcula el área usando la fórmula Área = pi * radio^2
+            double radio = double.Parse(Console.ReadLine());    // Convierte la entrada de texto del usuario en un número decimal
+            double area = Math.PI * Math.Pow(radio, 2); // Calcula el área usando la fórmula Área = pi * radio^2
             
             Console.WriteLine("El área del círculo que tiene un radio de " + radio + " es " + area);    // Imprime el resultado del área del círculo
 
-            // Ejercicio 5: 
+            // Ejercicio 5: Aumentar el salario
+            Console.WriteLine("Ingrese el nombre del trabajador:"); // Solicita al usuario que ingrese un nombre
+            string nombreTrabajador = Console.ReadLine();
+
+            Console.WriteLine("Ingrese el cargo del trabajador:");  // Solicita al usuario el cargo del trabajador
+            string cargoTrabajador = Console.ReadLine();
+
+            Console.WriteLine("Ingrese el salario del trabajarod:"); // Solicita al usuario el salario del trabajador
+            double salario = double.Parse(Console.ReadLine());  // Convierte la entrada de texto del usuario en un número 
+
+            double aumento = salario * 0.10;    // calcula el aumento del 10% del salario
+            double nuevoSalario = salario + aumento;    //  calcula el resultado del nuevo salario
+
+                //Imprime los datos ingresados del trabajador
+            Console.WriteLine("\nDatos del trabajador:");
+            Console.WriteLine("Nombre: " + nombreTrabajador);
+            Console.WriteLine("Cargo: " + cargoTrabajador);
+            Console.WriteLine("Salario actual: " + salario + " córdobas");
+            Console.WriteLine("Aumento del 10%: " + aumento + " córdobas");
+            Console.WriteLine("Nuevo salario: " + nuevoSalario + " córdobas");
+
+            // Ejercicio 6: 
         }
     }
 }
