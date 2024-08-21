@@ -63,15 +63,15 @@ namespace HolaMundo
             Console.WriteLine("Nuevo salario: " + nuevoSalario + " córdobas");
 
             // Ejercicio 6: Número par o impar
-            Console.WriteLine("\nIngrese un número:");
-            int numero = int.Parse(Console.ReadLine());
+            Console.WriteLine("\nIngrese un número:");  // Solicita al usuario que ingrese un número
+            int numero = int.Parse(Console.ReadLine()); // Convierte la entrada de texto del usuario en un número
 
-            if (numero % 2 == 0)
+            if (numero % 2 == 0)    // Condición para determinar si el número es par. El número es par si el resto de su división por 2 es 0
             {
-                Console.WriteLine("El número " + numero + " es par.");
+                Console.WriteLine("El número " + numero + " es par.");  // Imprime la respuesta si la condición se cumple
             }
-            else {
-                Console.WriteLine("El número " + numero + " es impar.");
+            else {  // Condición es falsa
+                Console.WriteLine("El número " + numero + " es impar.");    // Imprime la respuesta si la condición no se cumple
             }
         }
     }
