@@ -32,6 +32,16 @@ namespace HolaMundo
             int c = a + b;  // Suma las dos variables fijas y almacena el resultado en la variable c
 
             Console.WriteLine("La suma de " + a + " y " + b + " es: " +c); // Imprime el resultado de la suma al usuario
+
+            // Ejercicio 4: Calcular el área de un círculo
+            Console.WriteLine("Ingresa el radio del círculo:"); //Solicita al usuairo que ingrese un número
+            
+            double radio = double.Parse(Console.ReadLine());    //Convierte la entrada de texto del usuario en un número decimal
+            double area = Math.PI * Math.Pow(radio, 2); //Calcula el área usando la fórmula Área = pi * radio^2
+            
+            Console.WriteLine("El área del círculo que tiene un radio de " + radio + " es " + area);    // Imprime el resultado del área del círculo
+
+            // Ejercicio 5: 
         }
     }
 }
