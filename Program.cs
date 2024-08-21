@@ -62,7 +62,17 @@ namespace HolaMundo
             Console.WriteLine("Aumento del 10%: " + aumento + " córdobas");
             Console.WriteLine("Nuevo salario: " + nuevoSalario + " córdobas");
 
-            // Ejercicio 6: 
+            // Ejercicio 6: Número par o impar
+            Console.WriteLine("\nIngrese un número:");
+            int numero = int.Parse(Console.ReadLine());
+
+            if (numero % 2 == 0)
+            {
+                Console.WriteLine("El número " + numero + " es par.");
+            }
+            else {
+                Console.WriteLine("El número " + numero + " es impar.");
+            }
         }
     }
 }
