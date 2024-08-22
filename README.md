@@ -2,7 +2,7 @@
 
 Este proyecto contiene una serie de ejercicios prácticos de programación realizados en C# como parte de la clase de Metodología y Programación Estructurada.
 
-## Ejercicios
+## Ejercicios primera sesión de clase
 
 1. **Hola Mundo**: Un programa simple, y el más común, que imprime "Hola Mundo" en la consola.
 2. **Saludar a una Persona**: Programa que solicita el nombre de una persona y la saluda.
