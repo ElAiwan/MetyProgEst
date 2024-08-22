@@ -15,35 +15,35 @@ Este proyecto contiene una serie de ejercicios prácticos de programación reali
 ## Referencias
 
 ### Ejercicio 1: Hola Mundo
-- [Documentación de C# - Microsoft](https://docs.microsoft.com/en-us/dotnet/csharp/)
-- [Introducción a C# - Microsoft Learn](https://learn.microsoft.com/en-us/training/paths/csharp-first-steps/)
-- [W3Schools C# Tutorial](https://www.w3schools.com/cs/)
+- Microsoft. (n.d.). C# documentation. Microsoft Docs. Retrieved from https://docs.microsoft.com/en-us/dotnet/csharp/
+- Microsoft. (n.d.). Introduction to C#. Microsoft Learn. Retrieved from https://learn.microsoft.com/en-us/training/paths/csharp-first-steps/
+- W3Schools. (n.d.). C# tutorial. W3Schools. Retrieved from https://www.w3schools.com/cs/
 
 ### Ejercicio 2: Saludar a una Persona
-- [Documentación de C# - Microsoft](https://docs.microsoft.com/en-us/dotnet/csharp/)
-- [Console.ReadLine Method - Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/api/system.console.readline)
+- Microsoft. (n.d.). C# documentation. Microsoft Docs. Retrievd from https://docs.microsoft.com/en-us/dotnet/csharp/
+- Microsoft. (n.d.). Console.ReadLine method. Microsoft Docs. Retrieved from https://docs.microsoft.com/en-us/dotnet/api/system.console.readline
 
 ### Ejercicio 3: Suma de Dos Números (y Variantes)
-- [Documentación de C# - Microsoft](https://docs.microsoft.com/en-us/dotnet/csharp/)
-- [Operadores Aritméticos en C# - Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/arithmetic-operators)
-- [W3Schools C# Tutorial](https://www.w3schools.com/cs/)
+- Microsoft. (n.d.). C# documentation. Microsoft Docs. Retrievd from https://docs.microsoft.com/en-us/dotnet/csharp/
+- Microsoft. (n.d.). Arimethic operators. Microsoft Docs. Retrieved from https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/arithmetic-operators
+- W3Schools. (n.d.). C# tutorial. W3Schools. Retrieved from https://www.w3schools.com/cs/
 
 ### Ejercicio 4: Área de un Círculo
-- [Fórmula del Área de un Círculo - Wikipedia](https://es.wikipedia.org/wiki/C%C3%ADrculo#%C3%81rea)
-- [Math.PI - Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/api/system.math.pi)
-- [Math.Pow Method - Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/api/system.math.pow)
+- Wikipedia. (n.d.). Área de un círculo. In Wikipedia. Retrieved from https://es.wikipedia.org/wiki/C%C3%ADrculo#%C3%81rea
+- Microsoft. (n.d.). Math.PI field. Microsoft Docs. Retrieved from https://docs.microsoft.com/en-us/dotnet/api/system.math.pi
+- Microsoft. (n.d.). Math.Pow method. Microsoft Docs. Retrieved from https://docs.microsoft.com/en-us/dotnet/api/system.math.pow
 
 ### Ejercicio 5: Aumentar el Salario
-- [Documentación de C# - Microsoft](https://docs.microsoft.com/en-us/dotnet/csharp/)
-- [Operadores Aritméticos en C# - Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/arithmetic-operators)
+- Microsoft. (n.d.). C# documentation. Microsoft Docs. Retrievd from https://docs.microsoft.com/en-us/dotnet/csharp/
+- Microsoft. (n.d.). Arithmetic operators. Microsoft Docs. Retrieved from https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/arithmetic-operators
 
 ### Ejercicio 6: Determinar si un Número es Par o Impar
-- [Documentación de C# - Microsoft](https://docs.microsoft.com/en-us/dotnet/csharp/)
-- [Operadores Aritméticos en C# - Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/arithmetic-operators)
+- Microsoft. (n.d.). C# documentation. Microsoft Docs. Retrievd from https://docs.microsoft.com/en-us/dotnet/csharp/
+- Microsoft. (n.d.). Arithmetic operators. Microsoft Docs. Retrieved from https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/arithmetic-operators
 
 ### Ejercicio 7: Determinar el Mayor de Tres Números
-- [Documentación de C# - Microsoft](https://docs.microsoft.com/en-us/dotnet/csharp/)
-- [W3Schools C# Tutorial](https://www.w3schools.com/cs/)
+- Microsoft. (n.d.). C# documentation. Microsoft Docs. Retrieved from https://docs.microsoft.com/en-us/dotnet/csharp/
+- W3Schools. (n.d.). C# tutorial. W3Schools. Retrieved from https://www.w3schools.com/cs/
 
 ##
 
